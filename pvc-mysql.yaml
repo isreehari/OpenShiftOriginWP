@@ -8,9 +8,5 @@ spec:
   resources:
     requests:
       storage: 1Gi
-  selector: 
-    matchLabels: 
-      volume-name: wpdb
-
 
       

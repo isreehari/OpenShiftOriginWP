@@ -8,7 +8,4 @@ spec:
     - ReadWriteMany
   resources:
     requests:
-      storage: 1Gi
-  selector: 
-    matchLabels: 
-      volume-name: wpfiles    
+      storage: 1Gi 

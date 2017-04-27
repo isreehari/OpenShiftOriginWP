@@ -5,8 +5,7 @@ metadata:
     name: mysql
   name: mysql
 spec:
-  ports:
-    # the port that this service should serve on
-    - port: 3306
-  # label keys and values that must match in order to receive traffic for this service
+  ports:    
+    - port: 3306  
   selector:
+    name: mysql

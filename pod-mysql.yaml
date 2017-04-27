@@ -13,11 +13,11 @@ spec:
       name: mysql
       env:
         - name: MYSQL_ROOT_PASSWORD
-          value: yourpassword
+          value: SreeharI@123#
         - name: MYSQL_USER
-          value: wp_user
+          value: isreehari
         - name: MYSQL_PASSWORD
-          value: wp_pass
+          value: SreeharI@123#
         - name: MYSQL_DATABASE
           value: wp_db
       ports:
@@ -29,4 +29,4 @@ spec:
   volumes:
     - name: mysql-persistent-storage
       persistentVolumeClaim:
-        claimName: claim-mysql
+        claimName: wpdb-claim-mysql
